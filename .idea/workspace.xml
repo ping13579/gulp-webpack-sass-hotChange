@@ -2,62 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bf241e0-6448-473d-82eb-e0b4f28a6ee6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/footer.inc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/footer.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/help.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/help-charge.inc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/news-detail.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/news-list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/arr-slider-left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/arr-slider-right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/blank-img.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/cate-desktop-on.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/cate-desktop.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/cate-hot-on.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/cate-hot.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/cate-mobile-on.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/cate-mobile.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/cate-other-on.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/cate-other.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/corner-up.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/header-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/li-pre-on.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/li-pre.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/more-ico.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/new-ico.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/next_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/phone-ico.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/pic/focus01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/pic/game01-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/pic/game02-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/pic/game03-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/pic/game04-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/pic/news-detail-01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/pic/qrcode-big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/prev_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/qrcode-ico.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/qrcode-on-ico.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/user-ico.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/news-detail.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/news-list.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/js/common.js.map" afterPath="$PROJECT_DIR$/dist/js/common.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/js/common.js" afterPath="$PROJECT_DIR$/dist/js/common.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/header.inc" afterPath="$PROJECT_DIR$/src/app/header.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/help.less" afterPath="$PROJECT_DIR$/src/css/help.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/app/index.html" afterPath="$PROJECT_DIR$/dist/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/index.html" afterPath="$PROJECT_DIR$/src/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/js/main.js.map" afterPath="$PROJECT_DIR$/dist/js/main.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/js/main.js" afterPath="$PROJECT_DIR$/dist/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/main.js" afterPath="$PROJECT_DIR$/src/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/main.less" afterPath="$PROJECT_DIR$/src/css/main.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/app/news-detail.html" afterPath="$PROJECT_DIR$/dist/app/news-detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/app/news-list.html" afterPath="$PROJECT_DIR$/dist/app/news-list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/js/news-list.js.map" afterPath="$PROJECT_DIR$/dist/js/news-list.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/js/news-list.js" afterPath="$PROJECT_DIR$/dist/js/news-list.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/style.min.css" afterPath="$PROJECT_DIR$/dist/css/style.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="gulp-webpack-demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -118,21 +64,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="help.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/css/help.less">
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+              <caret line="122" column="25" selection-start-line="122" selection-start-column="25" selection-end-line="122" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.42460316">
-              <caret line="121" column="11" selection-start-line="121" selection-start-column="11" selection-end-line="121" selection-end-column="11" />
+            <state vertical-scroll-proportion="0.040983606">
+              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -208,6 +154,7 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/src/css/main.less" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -224,8 +171,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="306" />
-    <option name="y" value="23" />
+    <option name="x" value="883" />
+    <option name="y" value="65" />
     <option name="width" value="1113" />
     <option name="height" value="875" />
   </component>
@@ -252,6 +199,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -270,115 +219,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gulp-webpack-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gulp-webpack-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gulp-webpack-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gulp-webpack-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gulp-webpack-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gulp-webpack-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gulp-webpack-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gulp-webpack-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gulp-webpack-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gulp-webpack-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.general" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gulpWork/webpack_gulp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -443,7 +292,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="306" y="23" width="1113" height="875" extended-state="0" />
+    <frame x="883" y="65" width="1113" height="875" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -452,7 +301,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24929972" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20354809" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -483,6 +332,88 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/main.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/help.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/footer.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/footer.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/help.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -669,8 +600,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42460316">
-          <caret line="121" column="11" selection-start-line="121" selection-start-column="11" selection-end-line="121" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="122" column="25" selection-start-line="122" selection-start-column="25" selection-end-line="122" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.040983606">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
           <folding />
         </state>
       </provider>
