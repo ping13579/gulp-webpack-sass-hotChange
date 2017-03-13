@@ -7,7 +7,7 @@ var gulp = require('gulp'),
     os = require('os'),
     watch = require('gulp-watch'),
     gutil = require('gulp-util'),
-    less = require('gulp-less'),
+    sass = require('gulp-sass'),
     concat = require('gulp-concat'),
     gulpOpen = require('gulp-open'),
     uglify = require('gulp-uglify'),
@@ -38,10 +38,10 @@ gulp.task('copy:images', function (done) {
     gulp.src(['src/images/**/*']).pipe(gulp.dest('dist/images')).on('end', done);
 });
 
-//压缩合并css, css中既有自己写的.less, 也有引入第三方库的.css
-gulp.task('lessmin', function (done) {
-    gulp.src(['src/css/main.less', 'src/css/*.css'])
-        .pipe(less())
+//压缩合并css, css中既有自己写的.scss, 也有引入第三方库的.css
+gulp.task('sassmin', function (done) {
+    gulp.src(['src/css/main.scss', 'src/css/*.css'])
+        .pipe(sass())
         //这里可以加css sprite 让每一个css合并为一个雪碧图
         //.pipe(spriter({}))
         .pipe(concat('style.min.css'))
@@ -82,7 +82,7 @@ gulp.task('fileinclude', function (done) {
 });
 
 //雪碧图操作，应该先拷贝图片并压缩合并css
-gulp.task('sprite', ['copy:images', 'lessmin'], function (done) {
+gulp.task('sprite', ['copy:images', 'sassmin'], function (done) {
     var timestamp = +new Date();
     gulp.src('dist/css/style.min.css')
         .pipe(spriter({
@@ -107,7 +107,7 @@ gulp.task('clean', function (done) {
 });
 
 gulp.task('watch', function (done) {
-    gulp.watch('src/**/*', ['lessmin', 'build-js', 'fileinclude'])
+    gulp.watch('src/**/*', ['sassmin', 'build-js', 'fileinclude'])
         .on('end', done);
 });
 
@@ -149,4 +149,4 @@ gulp.task("build-js", ['fileinclude'], function(callback) {
 gulp.task('default', ['connect', 'fileinclude', 'md5:css', 'md5:js', 'open']);
 
 //开发
-gulp.task('dev', ['connect', 'copy:images', 'fileinclude', 'lessmin', 'build-js', 'watch', 'open']);
+gulp.task('dev', ['connect', 'copy:images', 'fileinclude', 'sassmin', 'build-js', 'watch', 'open']);

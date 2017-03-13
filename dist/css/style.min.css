@@ -1,156 +1,133 @@
+@charset "UTF-8";
 /* 初始化浏览器默认值 */
-body,
-div,
-p,
-form,
-ul,
-ol,
-dl,
-dt,
-dd,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+body, div, p, form, ul, ol, dl, dt, dd, h1, h2, h3, h4, h5, h6 {
   padding: 0;
-  margin: 0;
-}
+  margin: 0; }
+
 body {
-  font: 13px/1.2em Microsoft Yahei, "\5FAE\8F6F\96C5\9ED1", arial;
+  font: 13px Microsoft Yahei, "微软雅黑", arial;
   background-color: #f0f0f0;
-  color: #444;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+  color: #444; }
+
+h1, h2, h3, h4, h5, h6 {
   font-size: 13px;
   font-weight: normal;
-  line-height: 1em;
-}
-ul,
-ol {
-  list-style: none;
-}
-input,
-textarea,
-button {
+  line-height: 1em; }
+
+ul, ol {
+  list-style: none; }
+
+input, textarea, button {
   font-size: 13px;
-  font-family: Microsoft Yahei, "\5FAE\8F6F\96C5\9ED1", arial;
+  font-family: Microsoft Yahei, "微软雅黑", arial;
   margin: 0;
   padding: 2px;
-  vertical-align: middle;
-}
+  vertical-align: middle; }
+
 label {
-  cursor: pointer;
-}
-input[type="radio"],
-input[type="checkbox"] {
-  margin: 0 3px;
-}
+  cursor: pointer; }
+
+input[type="radio"], input[type="checkbox"] {
+  margin: 0 3px; }
+
 /* for modern browsers */
 img {
   border: none;
-  vertical-align: middle;
-}
+  vertical-align: middle; }
+
 table {
-  border-collapse: collapse;
-}
-td,
-th {
-  text-align: center;
-}
+  border-collapse: collapse; }
+
+td, th {
+  text-align: center; }
+
 /* 全局链接 */
 a:link {
   color: #333;
-  text-decoration: none;
-}
+  text-decoration: none; }
+
 a:visited {
-  color: #666;
-}
+  color: #666; }
+
 a:hover {
   color: #d71637;
-  text-decoration: none;
-}
+  text-decoration: none; }
+
 a:active {
-  color: #d71637;
-}
+  color: #d71637; }
+
 /*footer*/
 .hm-t-container {
-  display: none;
-}
+  display: none; }
+
 .ft-wrap {
   margin-top: 50px;
   width: 100%;
-  background: #fff;
-}
+  background: #fff; }
+
 .ft-copyright {
   width: 100%;
   margin-bottom: 15px;
-  overflow: hidden;
-}
+  overflow: hidden; }
+
 .ft-copyright a {
-  color: #525558;
-}
+  color: #525558; }
+
 .ft-safety {
   overflow: hidden;
   width: 548px;
-  margin: 24px auto;
-}
+  margin: 24px auto; }
+
 .footer-info {
   text-align: center;
   line-height: 22px;
-  font-size: 13px;
-}
+  font-size: 13px; }
+
 .ft-safety li {
   display: block;
   float: left;
   height: 44px;
   width: 125px;
-  margin: 0 6px;
-}
+  margin: 0 6px; }
+
 .ft-safety li a {
   display: block;
   width: 125px;
-  height: 44px;
-}
+  height: 44px; }
+
 .ft-safety .safety-1 a {
-  background: url('http://cdn.ufenqi.com/cms/img/footer_03.png') no-repeat right center;
-}
+  background: url("http://cdn.ufenqi.com/cms/img/footer_03.png") no-repeat right center; }
+
 .ft-safety .safety-2 a {
-  background: url('http://cdn.ufenqi.com/cms/img/footer_05.png') no-repeat right center;
-}
+  background: url("http://cdn.ufenqi.com/cms/img/footer_05.png") no-repeat right center; }
+
 .ft-safety .safety-3 a {
-  background: url('http://cdn.ufenqi.com/cms/img/footer_07.png') no-repeat right center;
-}
+  background: url("http://cdn.ufenqi.com/cms/img/footer_07.png") no-repeat right center; }
+
 .ft-safety .safety-4 a {
-  background: url('http://cdn.ufenqi.com/cms/img/footer_09.png') no-repeat right center;
-}
+  background: url("http://cdn.ufenqi.com/cms/img/footer_09.png") no-repeat right center; }
+
 .beian_a {
-  position: relative;
-}
+  position: relative; }
+
 .beian_a img {
   width: 14px;
   height: 14px;
   position: absolute;
   left: -10px;
-  top: 2px;
-}
+  top: 2px; }
+
 .footer-info p {
   height: 26px;
-  line-height: 26px;
-}
+  line-height: 26px; }
+
 .footer-info p a {
   border-right: 1px solid #525558;
-  padding: 0 5px;
-}
+  padding: 0 5px; }
+
 .footer-info p a:last-child {
-  border-right: none;
-}
+  border-right: none; }
+
 .click {
   width: 200px;
   display: block;
@@ -158,23 +135,21 @@ a:active {
   height: 100px;
   margin: 0 auto;
   font-size: 30px;
-  color: green;
-}
+  color: green; }
 
-.banner .btn,
-.banner .dot {
+.banner .btn, .banner .dot {
   -webkit-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.3));
   -moz-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.3));
   -ms-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.3));
   -o-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.3));
-  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.3));
-}
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.3)); }
+
 .banner .dots {
   position: absolute;
   left: 10px;
   right: 0;
-  bottom: 20px;
-}
+  bottom: 20px; }
+
 .banner .dots li {
   display: inline-block;
   width: 10px;
@@ -187,12 +162,12 @@ a:active {
   opacity: .4;
   -webkit-transition: background .5s, opacity .5s;
   -moz-transition: background .5s, opacity .5s;
-  transition: background .5s, opacity .5s;
-}
+  transition: background .5s, opacity .5s; }
+
 .banner .dots li.active {
   background: #fff;
-  opacity: 1;
-}
+  opacity: 1; }
+
 .slider-arrow {
   position: absolute;
   top: 50%;
@@ -200,8 +175,8 @@ a:active {
   width: 45px;
   height: 80px;
   z-index: 5;
-  cursor: pointer;
-}
+  cursor: pointer; }
+
 .slider-arrow i {
   position: absolute;
   width: 8px;
@@ -209,17 +184,16 @@ a:active {
   left: 50%;
   top: 50%;
   margin-left: -4px;
-  margin-top: -7px;
-}
+  margin-top: -7px; }
+
 .slider-arrow.prev {
-  left: 0;
-}
+  left: 0; }
+
 .slider-arrow.prev i {
-  background: url("../images/prev_arrow.png?__inline") no-repeat;
-}
+  background: url("../images/prev_arrow.png?__inline") no-repeat; }
+
 .slider-arrow.next {
-  right: 0;
-}
+  right: 0; }
+
 .slider-arrow.next i {
-  background: url("../images/next_arrow.png?__inline") no-repeat;
-}
+  background: url("../images/next_arrow.png?__inline") no-repeat; }
