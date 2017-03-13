@@ -1,4 +1,6 @@
-项目相关文章说明请见 [gulp + webpack 构建多页面前端项目][1]
+项目相关文章说明请见
+
+本项目实现了gulp+webpack+热更新
 
 由于关注该主题的人比较多，所以还是整理了一下手上项目，给出了一个简单的demo, 希望能提供一些思路。
 你可能还需要根据项目情况做调整。
@@ -15,9 +17,10 @@
 `gulp`
 
 **注意：**
-该demo项目15年构建，当时还是采用1.0版本的webpack。现在webpack已经更新到2.0+，更多新功能和修改请参考[官网](https://webpack.js.org/)。
 
-Update:
-2017.2.24 -- devtool: 'source-map' 改为 '#source-map'， 兼容新版Chrome规则。
+src中没有common.js  但不能删除。不然会报错。
 
-[1]: https://github.com/fwon/blog/issues/17
+实现热更新有很多种方法。。connect 、browserSync 等等。。本项目用的是connect热更新方法
+
+
+

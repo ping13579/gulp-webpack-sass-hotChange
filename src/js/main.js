@@ -1,19 +1,10 @@
-/*! functions.js */
+/**
+ * Created by mac on 17/3/13.
+ */
+
 var $ = require('jquery');
-//$.fn.slider = require('ui/slider.js');
 
-//$(window).load(function() {
-//  var slider = $('.banner').slider({
-//    dots: true,
-//    fluid: true,
-//    arrows: true
-//  });
-//  $('.slider-arrow').click(function() {
-//    var fn = this.className.split(' ')[1];
-//
-//    //  Either do slider.data('slider').next() or .prev() depending on the className
-//    slider.data('slider')[fn]();
-//  });
-//});
-
+$('.click').click(function(){
+    window.location.href='./help.html'
+});
 

@@ -1,7 +1,7 @@
 /**
  Gulpfile for gulp-webpack-demo
  created by fwon
-*/
+ */
 
 var gulp = require('gulp'),
     os = require('os'),
@@ -27,10 +27,10 @@ var host = {
     html: 'index.html'
 };
 
-//mac chrome: "Google chrome", 
+//mac chrome: "Google chrome",
 var browser = os.platform() === 'linux' ? 'Google chrome' : (
-  os.platform() === 'darwin' ? 'Google chrome' : (
-  os.platform() === 'win32' ? 'chrome' : 'firefox'));
+    os.platform() === 'darwin' ? 'Google chrome' : (
+        os.platform() === 'win32' ? 'chrome' : 'firefox'));
 var pkg = require('./package.json');
 
 //将图片拷贝到目标目录
@@ -46,6 +46,7 @@ gulp.task('lessmin', function (done) {
         //.pipe(spriter({}))
         .pipe(concat('style.min.css'))
         .pipe(gulp.dest('dist/css/'))
+        .pipe(connect.reload())
         .on('end', done);
 });
 
@@ -54,6 +55,7 @@ gulp.task('md5:js', ['build-js'], function (done) {
     gulp.src('dist/js/*.js')
         .pipe(md5(10, 'dist/app/*.html'))
         .pipe(gulp.dest('dist/js'))
+        .pipe(connect.reload())
         .on('end', done);
 });
 
@@ -62,6 +64,7 @@ gulp.task('md5:css', ['sprite'], function (done) {
     gulp.src('dist/css/*.css')
         .pipe(md5(10, 'dist/app/*.html'))
         .pipe(gulp.dest('dist/css'))
+        .pipe(connect.reload())
         .on('end', done);
 });
 
@@ -69,12 +72,13 @@ gulp.task('md5:css', ['sprite'], function (done) {
 gulp.task('fileinclude', function (done) {
     gulp.src(['src/app/*.html'])
         .pipe(fileinclude({
-          prefix: '@@',
-          basepath: '@file'
+            prefix: '@@',
+            basepath: '@file'
         }))
         .pipe(gulp.dest('dist/app'))
+        .pipe(connect.reload())
         .on('end', done);
-        // .pipe(connect.reload())
+    //
 });
 
 //雪碧图操作，应该先拷贝图片并压缩合并css
@@ -91,12 +95,14 @@ gulp.task('sprite', ['copy:images', 'lessmin'], function (done) {
         .pipe(base64())
         .pipe(cssmin())
         .pipe(gulp.dest('dist/css'))
+        .pipe(connect.reload())
         .on('end', done);
 });
 
 gulp.task('clean', function (done) {
     gulp.src(['dist'])
         .pipe(clean())
+        .pipe(connect.reload())
         .on('end', done);
 });
 
@@ -120,6 +126,7 @@ gulp.task('open', function (done) {
             app: browser,
             uri: 'http://localhost:3000/app'
         }))
+        .pipe(connect.reload())
         .on('end', done);
 });
 
